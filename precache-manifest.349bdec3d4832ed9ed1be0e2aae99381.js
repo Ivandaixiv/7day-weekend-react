@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8064f909176e899d4ff1ac163ee4ad22",
+    "revision": "0cc93aabe7fbbd8ca96695f01cfbe3c9",
     "url": "/7day-weekend-react/index.html"
   },
   {
-    "revision": "ed54131abfe9c34491d4",
+    "revision": "7422372f0c9f1c865440",
     "url": "/7day-weekend-react/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/7day-weekend-react/static/js/2.b73d728d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed54131abfe9c34491d4",
-    "url": "/7day-weekend-react/static/js/main.89e8c8b1.chunk.js"
+    "revision": "7422372f0c9f1c865440",
+    "url": "/7day-weekend-react/static/js/main.18976118.chunk.js"
   },
   {
     "revision": "ee015736395281abefc1",
