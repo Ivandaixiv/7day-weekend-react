@@ -66,12 +66,13 @@ const Navigation = (props) => {
             <Button className={classes.button}>Media</Button>
           </Link>
         </ListItem>
-        <ListItem>
-          <Button onClick={toggleDrawer("top", false)} className={classes.menu}>
-            <DehazeIcon style={{ transform: " rotate(90deg)" }} />
-          </Button>
-        </ListItem>
       </List>
+      <Button
+        onClick={toggleDrawer("top", false)}
+        className={classes.menuButton}
+      >
+        <DehazeIcon style={{ transform: " rotate(90deg)" }} />
+      </Button>
     </div>
   );
   return (
@@ -84,7 +85,10 @@ const Navigation = (props) => {
               alt="7 Day Weekend Logo"
             />
           </Link>
-          <Button onClick={toggleDrawer("top", true)} className={classes.menu}>
+          <Button
+            onClick={toggleDrawer("top", true)}
+            className={classes.menuButton}
+          >
             <DehazeIcon />
           </Button>
         </div>

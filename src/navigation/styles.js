@@ -15,9 +15,14 @@ const styles = () =>
       display: "flex",
       justifyContent: "center",
     },
+    menuButton: {
+      position: "absolute",
+      top: 25,
+      right: 50,
+    },
     navigation: {
       display: "flex",
-      justifyContent: "space-around",
+      justifyContent: "flex-start",
     },
     link: {
       textDecoration: "none",
