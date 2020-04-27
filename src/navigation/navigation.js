@@ -42,7 +42,7 @@ const Navigation = (props) => {
           </Link>
         </ListItem>
         <ListItem className={classes.listItem}>
-          <Link className={classes.link} to="/podcast">
+          <Link className={classes.link} to="/podcasts">
             <Button className={classes.button}>Podcast</Button>
           </Link>
         </ListItem>
@@ -52,17 +52,17 @@ const Navigation = (props) => {
           </Link>
         </ListItem>
         <ListItem className={classes.listItem}>
-          <Link className={classes.link} to="/vlog">
+          <Link className={classes.link} to="/vlogs">
             <Button className={classes.button}>Vlog</Button>
           </Link>
         </ListItem>
         <ListItem className={classes.listItem}>
-          <Link className={classes.link} to="/webinar">
+          <Link className={classes.link} to="/webinars">
             <Button className={classes.button}>Webinar</Button>
           </Link>
         </ListItem>
         <ListItem className={classes.listItem}>
-          <Link className={classes.link} to="/media">
+          <Link className={classes.link} to="/medias">
             <Button className={classes.button}>Media</Button>
           </Link>
         </ListItem>
