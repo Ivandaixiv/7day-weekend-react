@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/7day-weekend-react/precache-manifest.fa0f22798296155f0843db59569e8a28.js"
+  "/7day-weekend-react/precache-manifest.ff32d881f2dabd17989b7bdad1665086.js"
 );
 
 self.addEventListener('message', (event) => {
