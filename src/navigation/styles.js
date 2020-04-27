@@ -3,7 +3,7 @@ import { createStyles } from "@material-ui/styles";
 const styles = () =>
   createStyles({
     list: {
-      minHeight: 75,
+      minHeight: 100,
       minWidth: "50vw",
       display: "flex",
     },
@@ -15,9 +15,9 @@ const styles = () =>
       display: "flex",
       justifyContent: "center",
     },
-    menu: {
-      position: "absolute",
-      right: 50,
+    navigation: {
+      display: "flex",
+      justifyContent: "space-around",
     },
     link: {
       textDecoration: "none",

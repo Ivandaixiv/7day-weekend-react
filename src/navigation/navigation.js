@@ -66,15 +66,28 @@ const Navigation = (props) => {
             <Button className={classes.button}>Media</Button>
           </Link>
         </ListItem>
+        <ListItem>
+          <Button onClick={toggleDrawer("top", false)} className={classes.menu}>
+            <DehazeIcon style={{ transform: " rotate(90deg)" }} />
+          </Button>
+        </ListItem>
       </List>
     </div>
   );
   return (
     <div>
       <>
-        <Button onClick={toggleDrawer("top", true)} className={classes.menu}>
-          <DehazeIcon />
-        </Button>
+        <div className={classes.navigation}>
+          <Link to="/home">
+            <img
+              src="https://via.placeholder.com/150x100"
+              alt="7 Day Weekend Logo"
+            />
+          </Link>
+          <Button onClick={toggleDrawer("top", true)} className={classes.menu}>
+            <DehazeIcon />
+          </Button>
+        </div>
         <Drawer
           anchor={"top"}
           open={state["top"]}
