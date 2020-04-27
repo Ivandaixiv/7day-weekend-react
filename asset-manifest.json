@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/7day-weekend-react/static/css/main.5f361e03.chunk.css",
+    "main.js": "/7day-weekend-react/static/js/main.7e1fc6f0.chunk.js",
+    "main.js.map": "/7day-weekend-react/static/js/main.7e1fc6f0.chunk.js.map",
+    "runtime-main.js": "/7day-weekend-react/static/js/runtime-main.7764c622.js",
+    "runtime-main.js.map": "/7day-weekend-react/static/js/runtime-main.7764c622.js.map",
+    "static/js/2.8598a8f4.chunk.js": "/7day-weekend-react/static/js/2.8598a8f4.chunk.js",
+    "static/js/2.8598a8f4.chunk.js.map": "/7day-weekend-react/static/js/2.8598a8f4.chunk.js.map",
+    "index.html": "/7day-weekend-react/index.html",
+    "precache-manifest.fa0f22798296155f0843db59569e8a28.js": "/7day-weekend-react/precache-manifest.fa0f22798296155f0843db59569e8a28.js",
+    "service-worker.js": "/7day-weekend-react/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/7day-weekend-react/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.8598a8f4.chunk.js.LICENSE.txt": "/7day-weekend-react/static/js/2.8598a8f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7764c622.js",
+    "static/js/2.8598a8f4.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.7e1fc6f0.chunk.js"
+  ]
+}
