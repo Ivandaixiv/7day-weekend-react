@@ -22,7 +22,7 @@ const Home = (props) => {
       <div>
         <img src="https://via.placeholder.com/500" alt="Shane Carling" />
         <div>
-          <h1>Shane Carling</h1>
+          <h2>Shane Carling</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
