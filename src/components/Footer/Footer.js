@@ -6,8 +6,15 @@ const Footer = ({ data, classes }) => {
   return (
     <div className={classes.footer}>
       <div className={classes.list}>
-        {data.map((section) => {
-          return <p>{section.header}</p>;
+        {data.map((section, index) => {
+          return (
+            <div key={index}>
+              <h2>{section.header.toUpperCase()}</h2>
+              {section.content.map((item, index) => {
+                return <p key={index}>{item}</p>;
+              })}
+            </div>
+          );
         })}
       </div>
       <p>Social Media</p>

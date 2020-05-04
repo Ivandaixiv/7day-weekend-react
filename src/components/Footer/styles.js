@@ -10,6 +10,7 @@ const styles = () =>
       display: "flex",
       width: "50vw",
       justifyContent: "space-around",
+      textAlign: "left",
     },
   });
 
