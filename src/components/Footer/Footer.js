@@ -1,6 +1,10 @@
 import React from "react";
 import { withStyles } from "@material-ui/styles";
 import styles from "./styles";
+import Twitter from "react-ionicons/lib/LogoTwitter";
+import Facebook from "react-ionicons/lib/LogoFacebook";
+import Youtube from "react-ionicons/lib/LogoYoutube";
+import Instagram from "react-ionicons/lib/LogoInstagram";
 const Footer = ({ data, classes }) => {
   console.log("Data", data);
   return (
@@ -17,7 +21,15 @@ const Footer = ({ data, classes }) => {
           );
         })}
       </div>
-      <p>Social Media</p>
+      <div className={classes.copyrightContainer}>
+        <div className={classes.logo}>
+          <Twitter />
+          <Facebook />
+          <Youtube />
+          <Instagram />
+        </div>
+        <p className={classes.copyright}>&copy; Shane Carling 2020 </p>
+      </div>
     </div>
   );
 };
