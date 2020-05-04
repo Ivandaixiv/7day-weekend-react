@@ -1,6 +1,18 @@
 import React from "react";
-const Footer = (props) => {
-  return <h1> Footer</h1>;
+import { withStyles } from "@material-ui/styles";
+import styles from "./styles";
+const Footer = ({ data, classes }) => {
+  console.log("Data", data);
+  return (
+    <div className={classes}>
+      <div>
+        {data.map((section) => {
+          return <p>{section.header}</p>;
+        })}
+      </div>
+      <p>Social Media</p>
+    </div>
+  );
 };
 
-export default Footer;
+export default withStyles(styles)(Footer);
