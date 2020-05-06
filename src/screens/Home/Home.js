@@ -22,7 +22,7 @@ const Home = (props) => {
         </p>
       </div>
       <div className={classes.imagePContainer}>
-        <img src="https://via.placeholder.com/500" alt="Shane Carling" />
+        <img src="https://via.placeholder.com/500x400" alt="Shane Carling" />
         <div className={classes.paragraphContainer}>
           <h2 className={classes.header}>Shane Carling</h2>
           <p className={classes.paragraph}>

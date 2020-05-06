@@ -27,7 +27,9 @@ const styles = () =>
     },
     imagePContainer: {
       display: "flex",
+      justifyContent: "space-around",
       "& div": {
+        width: "50%",
         justifyContent: "center",
       },
     },
