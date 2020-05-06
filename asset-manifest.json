@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/7day-weekend-react/static/css/main.5f361e03.chunk.css",
-    "main.js": "/7day-weekend-react/static/js/main.d8e74fd4.chunk.js",
-    "main.js.map": "/7day-weekend-react/static/js/main.d8e74fd4.chunk.js.map",
+    "main.js": "/7day-weekend-react/static/js/main.aee0b2c5.chunk.js",
+    "main.js.map": "/7day-weekend-react/static/js/main.aee0b2c5.chunk.js.map",
     "runtime-main.js": "/7day-weekend-react/static/js/runtime-main.7764c622.js",
     "runtime-main.js.map": "/7day-weekend-react/static/js/runtime-main.7764c622.js.map",
-    "static/js/2.25ef3664.chunk.js": "/7day-weekend-react/static/js/2.25ef3664.chunk.js",
-    "static/js/2.25ef3664.chunk.js.map": "/7day-weekend-react/static/js/2.25ef3664.chunk.js.map",
+    "static/js/2.98e2f2ed.chunk.js": "/7day-weekend-react/static/js/2.98e2f2ed.chunk.js",
+    "static/js/2.98e2f2ed.chunk.js.map": "/7day-weekend-react/static/js/2.98e2f2ed.chunk.js.map",
     "index.html": "/7day-weekend-react/index.html",
-    "precache-manifest.b64a77b29f445b28eabc8a9e5be83924.js": "/7day-weekend-react/precache-manifest.b64a77b29f445b28eabc8a9e5be83924.js",
+    "precache-manifest.f40f9b874ae2c0ae1ef92f14c6115852.js": "/7day-weekend-react/precache-manifest.f40f9b874ae2c0ae1ef92f14c6115852.js",
     "service-worker.js": "/7day-weekend-react/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/7day-weekend-react/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.25ef3664.chunk.js.LICENSE.txt": "/7day-weekend-react/static/js/2.25ef3664.chunk.js.LICENSE.txt"
+    "static/js/2.98e2f2ed.chunk.js.LICENSE.txt": "/7day-weekend-react/static/js/2.98e2f2ed.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7764c622.js",
-    "static/js/2.25ef3664.chunk.js",
+    "static/js/2.98e2f2ed.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.d8e74fd4.chunk.js"
+    "static/js/main.aee0b2c5.chunk.js"
   ]
 }
