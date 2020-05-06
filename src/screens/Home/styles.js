@@ -12,6 +12,27 @@ const styles = () =>
         transform: "translate(0, -75px)",
       },
     },
+    paragraphContainer: {
+      textAlign: "left",
+      display: "flex",
+      flexDirection: "column",
+      width: "100%",
+    },
+    header: {
+      alignSelf: "center",
+    },
+    paragraph: {
+      alignSelf: "center",
+      width: "30vw",
+    },
+    imagePContainer: {
+      display: "flex",
+      justifyContent: "space-around",
+      "& div": {
+        width: "50%",
+        justifyContent: "center",
+      },
+    },
   });
 
 export default styles;
