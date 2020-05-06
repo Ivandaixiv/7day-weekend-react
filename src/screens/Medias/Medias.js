@@ -9,8 +9,10 @@ const Medias = ({ classes, data }) => {
         return (
           <>
             <img src={media.thumbnail} alt={media.title} />
-            <p>{media.title}</p>
-            <p>{media.description}</p>
+            <div>
+              <p>{media.title}</p>
+              <p>{media.description}</p>
+            </div>
           </>
         );
       })}
