@@ -1,11 +1,19 @@
 import React from "react";
 import { withStyles } from "@material-ui/core";
 import styles from "./styles";
-const Medias = (props) => {
-  const { classes } = props;
+const Medias = ({ classes, data }) => {
+  console.log("Media", data);
   return (
     <>
-      <p>Media</p>
+      {data.map((media, index) => {
+        return (
+          <>
+            <img src={media.thumbnail} alt={media.title} />
+            <p>{media.title}</p>
+            <p>{media.description}</p>
+          </>
+        );
+      })}
     </>
   );
 };
