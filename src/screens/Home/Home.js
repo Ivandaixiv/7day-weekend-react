@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, withStyles } from "@material-ui/core";
+import Form from "../../components/Form";
 import styles from "./styles";
 const Home = (props) => {
   const { classes } = props;
@@ -36,6 +37,7 @@ const Home = (props) => {
           </p>
         </div>
       </div>
+      <Form />
     </>
   );
 };
