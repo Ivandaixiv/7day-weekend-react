@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "67be6a191064832eb533f9cc1de9b74a",
+    "revision": "14e73526cd94b5a6ec98492a0049f460",
     "url": "/7day-weekend-react/index.html"
   },
   {
-    "revision": "48d24e3b717c657d775f",
+    "revision": "cb8d5dd7f61eaccd836c",
     "url": "/7day-weekend-react/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "36b884dc3ba635a4b4a2",
-    "url": "/7day-weekend-react/static/js/2.98e2f2ed.chunk.js"
+    "revision": "08b01c243bb04e3ab1e3",
+    "url": "/7day-weekend-react/static/js/2.90320a2e.chunk.js"
   },
   {
     "revision": "56314afb9447acda61c0bb273cfa2653",
-    "url": "/7day-weekend-react/static/js/2.98e2f2ed.chunk.js.LICENSE.txt"
+    "url": "/7day-weekend-react/static/js/2.90320a2e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "48d24e3b717c657d775f",
-    "url": "/7day-weekend-react/static/js/main.aee0b2c5.chunk.js"
+    "revision": "cb8d5dd7f61eaccd836c",
+    "url": "/7day-weekend-react/static/js/main.79e30f9b.chunk.js"
   },
   {
     "revision": "ee015736395281abefc1",
