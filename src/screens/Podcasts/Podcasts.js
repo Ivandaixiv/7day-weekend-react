@@ -1,5 +1,5 @@
 import React from "react";
-import { withStyles, List, ListItem } from "@material-ui/core";
+import { withStyles } from "@material-ui/core";
 import styles from "./styles";
 const Medias = ({ classes, data }) => {
   return (
@@ -15,10 +15,10 @@ const Medias = ({ classes, data }) => {
         <h2>Podcasts</h2>
         <p>Filter Placeholder</p>
       </div>
-      <List className={classes.list}>
+      <div className={classes.list}>
         {data.map((media, index) => {
           return (
-            <ListItem className={classes.item} key={index}>
+            <div key={index}>
               <img
                 src={media.thumbnail}
                 alt={media.title}
@@ -27,12 +27,11 @@ const Medias = ({ classes, data }) => {
               <div className={classes.text}>
                 <p className={classes.title}>{media.title} </p>
                 <p className={classes.description}>{media.description}</p>
-                <p className={classes.date}>{media.date} </p>
               </div>
-            </ListItem>
+            </div>
           );
         })}
-      </List>
+      </div>
     </div>
   );
 };

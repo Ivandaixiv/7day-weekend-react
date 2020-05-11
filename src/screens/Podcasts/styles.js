@@ -29,22 +29,23 @@ const styles = () =>
     },
     item: {
       display: "flex",
+      flexDirection: "column",
       justifyContent: "space-between",
     },
     image: {
-      width: 200,
+      maxHeight: 200,
+      maxWidth: 350,
     },
     text: {
-      margin: 20,
+      maxWidth: 350,
+      textAlign: "left",
+      margin: "0 auto",
     },
     title: {
       fontSize: "1.5rem",
     },
     description: {
       color: "#999999",
-    },
-    date: {
-      fontSize: ".75rem",
     },
   });
 
