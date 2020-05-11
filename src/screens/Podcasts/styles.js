@@ -6,6 +6,23 @@ const styles = () =>
       width: "80%",
       margin: "0 auto",
     },
+    featured: {
+      display: "flex",
+      textAlign: "left",
+      justifyContent: "space-around",
+    },
+    featuredText: {
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+    },
+    featuredDescription: {
+      width: 350,
+    },
+    listHeader: {
+      display: "flex",
+      justifyContent: "space-between",
+    },
     list: {
       display: "grid",
       gridTemplateColumns: "1fr 1fr 1fr",

@@ -5,11 +5,15 @@ const Medias = ({ classes, data }) => {
   return (
     <div className={classes.container}>
       <div className={classes.featured}>
-        <img src={data[0].thumbnail} alt={data[0].title} />
-        <div>
+        <div className={classes.featuredText}>
           <h1>{data[0].title}</h1>
-          <p>{data[0].description}</p>
+          <p className={classes.featuredDescription}>{data[0].description}</p>
         </div>
+        <img src={data[0].thumbnail} alt={data[0].title} />
+      </div>
+      <div className={classes.listHeader}>
+        <h2>Podcasts</h2>
+        <p>Filter Placeholder</p>
       </div>
       <List className={classes.list}>
         {data.map((media, index) => {
