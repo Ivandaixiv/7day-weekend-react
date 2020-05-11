@@ -11,6 +11,9 @@ const styles = () =>
       "& button": {
         transform: "translate(0, -75px)",
       },
+      paragraph: {
+        width: "25vw",
+      },
     },
     paragraphContainer: {
       textAlign: "left",
