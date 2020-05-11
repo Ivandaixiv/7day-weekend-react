@@ -4,6 +4,13 @@ import styles from "./styles";
 const Medias = ({ classes, data }) => {
   return (
     <div className={classes.container}>
+      <div className={classes.featured}>
+        <img src={data[0].thumbnail} alt={data[0].title} />
+        <div>
+          <h1>{data[0].title}</h1>
+          <p>{data[0].description}</p>
+        </div>
+      </div>
       <List className={classes.list}>
         {data.map((media, index) => {
           return (
