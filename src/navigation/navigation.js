@@ -43,7 +43,7 @@ const Navigation = (props) => {
         </ListItem>
         <ListItem className={classes.listItem}>
           <Link className={classes.link} to="/podcasts">
-            <Button className={classes.button}>Podcast</Button>
+            <Button className={classes.button}>Podcasts</Button>
           </Link>
         </ListItem>
         <ListItem className={classes.listItem}>
