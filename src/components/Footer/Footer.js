@@ -6,7 +6,6 @@ import Facebook from "react-ionicons/lib/LogoFacebook";
 import Youtube from "react-ionicons/lib/LogoYoutube";
 import Instagram from "react-ionicons/lib/LogoInstagram";
 const Footer = ({ data, classes }) => {
-  console.log("Data", data);
   return (
     <div className={classes.footer}>
       <div className={classes.list}>
